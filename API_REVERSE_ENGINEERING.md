@@ -27,6 +27,8 @@ If the server does not respond anything, it probably means the command was denie
 
 ## Known commands
 
+Commands are acknowledged quickly, but can take a few seconds (maybe minutes) to get registered by the controller.
+
 #### Set Charge Mode
 ```json
 {

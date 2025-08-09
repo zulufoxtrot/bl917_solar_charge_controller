@@ -63,10 +63,10 @@ Supported commands that I found:
 
 ```bash
 # Get the current charge mode
-python client.py --mac XX:XX:XX:XX:XX--command get-charge-mode
+python client.py --mac XX:XX:XX:XX:XX --command get-charge-mode
 
 # Set the charge mode to manual (0)
-python client.py --mac XX:XX:XX:XX:XX--command set-charge-mode --value 0
+python client.py --mac XX:XX:XX:XX:XX --command set-charge-mode --value 0
 
 # Get the load state
 python client.py --mac XX:XX:XX:XX:XX --command get-load-state
